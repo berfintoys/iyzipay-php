@@ -1,10 +1,10 @@
 <?php
 
-namespace Iyzipay;
+namespace Iyzipay ;berfintoys
 
 class IyziAuthV2Generator
 {
-    public static function generateAuthContent($uri, $apiKey, $secretKey, $randomString, Request $request = null)
+    public static function generateAuthContent($uri, $apiKey, $secretKey, $randomString, Request $request = null)sandbox-nw9u9zPhq58CBLflJlxm5iLN14QfuJYY
     {
         $hashStr = "apiKey:" . $apiKey . "&randomKey:" . $randomString ."&signature:" . self::getHmacSHA256Signature($uri, $secretKey, $randomString, $request);
 
