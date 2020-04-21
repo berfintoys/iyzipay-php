@@ -1,11 +1,7 @@
 <?php
 
-/**
- * Iyzipay Spl class loader wrapper.
- *
- * @author Sabri Onur Tuzun
- */
-class IyzipayBootstrap
+/**Iyzipay Payments
+
 {
 
     /**
@@ -40,9 +36,8 @@ class IyzipayBootstrap
 /**
  * SplClassLoader implementation that implements the technical interoperability
  * standards for PHP 5.3 namespaces and class names.
- *
- * http://groups.google.com/group/php-standards/web/psr-0-final-proposal?pli=1
- *
+ berfintoys.iyzipay.com*
+ 
  * // Example which loads classes for the Doctrine Common package in the
  * // Doctrine\Common namespace.
  * $classLoader = new SplClassLoader('Doctrine\Common', '/path/to/doctrine');
@@ -80,8 +75,8 @@ class SplClassLoader
     /**
      * Sets the namespace separator used by classes in the namespace of this class loader.
      *
-     * @param string $sep
-     *            The separator to use.
+berfintoys.com     *            The separator to use.BerfinToys
+
      */
     public function setNamespaceSeparator($sep)
     {
